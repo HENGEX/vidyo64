@@ -1,5 +1,5 @@
-# vidyo64
-<par>Instruction and files to install VidyoDesktop </par>
+# Install vidyo 64 bits in Debian/Ubuntu 
+<par>Instruction and files to install VidyoDesktop, or just ./install</par>
 
 ## As root
 
