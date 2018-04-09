@@ -10,9 +10,7 @@ dpkg-deb --control VidyoDesktopInstaller-ubuntu64-TAG_VD_3_6_3_017.deb vidyobuil
 
 <par> modifying the depends </par>
 ```bash
-cat vidyobuild/DEBIAN/control | sed -e 's/\<,libqt4-network\>//g' >> vidyobuild/DEBIAN/control
-dpkg-deb -b vidyobuild vidyodesktop-custom.deb
-sudo dpkg -i vidyodesktop-custom.deb
+cat vidyobuild/DEBIAN/control | sed '/Depends: libxss1,libaudio2,libasound2,libqt4-gui (>= 4.8.1), libqt4-network/c\Depends: libxss1,libaudio2,libasound2,libqt4-network'>> vidyobuild/DEBIAN/control
 ```
 <par> Repaking </par>
 ```bash
