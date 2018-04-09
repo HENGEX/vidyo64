@@ -1,6 +1,8 @@
 # vidyo64
 <par>Instruction and files to install VidyoDesktop </par>
 
+## As root
+
 <par> Unpaking the .deb </par>
 
 ```bash
